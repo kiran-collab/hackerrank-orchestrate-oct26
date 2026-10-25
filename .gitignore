@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+code/evaluation/results.json
+code/evaluation/predictions/
+code.zip
+.env

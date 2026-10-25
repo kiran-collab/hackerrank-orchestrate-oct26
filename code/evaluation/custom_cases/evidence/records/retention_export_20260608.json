@@ -1,0 +1,48 @@
+{
+ "exported_at": "2026-06-08T12:00:00Z",
+ "region": "global",
+ "source": "service_resource_export",
+ "service_exports": {
+  "account_service": {
+   "profile_lookups": [
+    {
+     "observed_at": "2026-06-08T09:00:00Z",
+     "profile": null,
+     "resource_id": "account_9909",
+     "status_code": 404,
+     "lookup_key": "wei.zhang@example.org"
+    },
+    {
+     "observed_at": "2026-06-08T09:01:00Z",
+     "profile": null,
+     "resource_id": "account_9910",
+     "status_code": 404,
+     "lookup_key": "sara.lind@example.org"
+    }
+   ]
+  },
+  "security_service": {
+   "audit_records": [
+    {
+     "event_code": "ACCOUNT_DELETION_RECORDED",
+     "observed_at": "2026-06-08T09:05:00Z",
+     "resource_id": "audit_record_9909",
+     "retention_until": "2026-05-01T00:00:00Z",
+     "subject_reference": "user_909"
+    }
+   ]
+  },
+  "legal_service": {
+   "retained_order_records": [
+    {
+     "observed_at": "2026-06-08T09:06:00Z",
+     "resource_id": "legal_hold_9910",
+     "subject_reference": "user_910",
+     "order_reference": "ORD-99910",
+     "retention_reason": "payment_dispute_and_tax_record",
+     "retained_until": "2033-12-31T23:59:59Z"
+    }
+   ]
+  }
+ }
+}

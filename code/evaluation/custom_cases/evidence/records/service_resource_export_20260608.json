@@ -1,0 +1,21 @@
+{"exported_at": "2026-06-08T12:00:00Z", "region": "global", "source": "service_resource_export",
+ "service_exports": {
+  "account_service": {"profile_lookups": [
+    {"observed_at": "2026-06-08T10:00:00Z", "profile": null, "resource_id": "account_9902", "status_code": 404, "lookup_key": "ravi.okonkwo@example.org"},
+    {"observed_at": "2026-06-08T10:01:00Z", "profile": null, "resource_id": "account_9904", "status_code": 404, "lookup_key": "jonah.prieto@example.org"},
+    {"observed_at": "2026-06-08T10:02:00Z", "profile": null, "resource_id": "account_9905", "status_code": 404, "lookup_key": "ada.brennan@example.org"}]},
+  "search_service": {"index_queries": [
+    {"observed_at": "2026-06-08T10:05:00Z", "query": "ravi.okonkwo.lee@example.org", "resource_id": "search_9998",
+     "hits": {"total": 1, "documents": [{"resource_id": "search_9998", "email": "ravi.okonkwo.lee@example.org", "display_name": null}]}},
+    {"observed_at": "2026-06-08T10:06:00Z", "query": "j.prieto.old@example.org", "resource_id": "search_9904",
+     "hits": {"total": 0, "documents": []}}]},
+  "security_service": {"audit_records": [
+    {"event_code": "ACCOUNT_DELETION_RECORDED", "observed_at": "2026-06-08T10:10:00Z", "resource_id": "audit_record_9901", "retention_until": "2031-12-31T23:59:59Z", "subject_reference": "user_901"},
+    {"event_code": "ACCOUNT_DELETION_RECORDED", "observed_at": "2026-06-08T10:10:00Z", "resource_id": "audit_record_9902", "retention_until": "2031-12-31T23:59:59Z", "subject_reference": "user_902"},
+    {"event_code": "ACCOUNT_DELETION_RECORDED", "observed_at": "2026-06-08T10:10:00Z", "resource_id": "audit_record_9904", "retention_until": "2031-12-31T23:59:59Z", "subject_reference": "user_904"},
+    {"event_code": "ACCOUNT_DELETION_RECORDED", "observed_at": "2026-06-08T10:10:00Z", "resource_id": "audit_record_9905", "retention_until": "2031-12-31T23:59:59Z", "subject_reference": "user_905"}]},
+  "support_platform": {"tickets": [
+    {"observed_at": "2026-06-08T10:20:00Z", "resource_id": "support_9905", "requester_email": "ada.brennan@example.org", "requester_name": null, "requester_phone": null, "customer_reference": null, "message_excerpt": "Customer followed up about an order update."}]},
+  "integration_service": {"connectors": [
+    {"observed_at": "2026-06-08T10:30:00Z", "resource_id": "data_flow_9905", "connector_name": "customer-events-to-warehouse", "customer_email": "ada.brennan@example.org", "customer_reference": null, "enabled": true, "last_delivery_status": "delivered"}]}
+ }}

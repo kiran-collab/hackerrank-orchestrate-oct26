@@ -2,6 +2,11 @@
 
 ## Ghost Data Still Exists
 
+> **Solution:** run `python3 code/main.py` to write `output.csv` and `python3 code/evaluation/main.py`
+> to evaluate. Setup, architecture, and decisions: [`code/README.md`](./code/README.md). Results:
+> [`code/evaluation/evaluation_report.md`](./code/evaluation/evaluation_report.md). Model usage:
+> [`code/evaluation/usage_report.md`](./code/evaluation/usage_report.md).
+
 Build an AI agent that audits whether a user's personal data was actually deleted.
 
 A deletion workflow may report **Complete** while data still exists in databases, logs, support attachments, exports, search indexes, archives, or backups. Sync and restore processes may also bring deleted data back.

@@ -1,0 +1,2 @@
+2026-06-20T08:00:00Z level=DEBUG service=search_service trace_id=rb-1 event=index_query_started resource_id=search_9904 lookup_key=j.prieto.old@example.org
+2026-06-20T08:00:01Z level=INFO service=search_service trace_id=rb-1 event=index_query_completed resource_id=search_9904 result=hit total_hits=1 index=customer_directory_v3 email=j.prieto.old@example.org customer_reference=null

@@ -1,0 +1,20 @@
+{
+  "sample": {
+    "status_accuracy": 1.0,
+    "step_f1": 0.9606299212598425,
+    "sequence_exact": 0.65625,
+    "discovery_f1": 0.9308755760368664,
+    "findings_f1": 1.0,
+    "evidence_accuracy": 1.0,
+    "policy_agreement": 1.0
+  },
+  "custom": {
+    "status_accuracy": 1.0,
+    "step_f1": 1.0,
+    "sequence_exact": 1.0,
+    "discovery_f1": 1.0,
+    "findings_f1": 1.0,
+    "evidence_accuracy": 1.0,
+    "policy_agreement": 1.0
+  }
+}

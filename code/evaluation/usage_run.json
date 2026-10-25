@@ -1,0 +1,13 @@
+{
+  "requests": 518,
+  "per_model": {},
+  "overall": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
+    "avg_tokens_per_request": 0.0,
+    "estimated_cost_usd": 0.0,
+    "estimated_cost_per_request_usd": 0.0
+  }
+}

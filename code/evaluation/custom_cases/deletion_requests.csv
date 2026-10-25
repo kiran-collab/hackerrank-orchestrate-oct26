@@ -1,0 +1,11 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_901,tess.halvorsen@example.org,2026-06-01T09:00:00Z,COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,"Please delete my account. The deletion was confirmed, but I want to be sure nothing remains."
+case_902,ravi.okonkwo@example.org,2026-06-01T09:00:00Z,COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,"Please erase my account. Note that a search result with a similar address belongs to someone else."
+case_903,mina.sato@example.org,2026-06-01T09:00:00Z,NOT_STARTED,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,I would like a downloadable copy of my account data. Please keep my account open.
+case_904,j.prieto.old@example.org,2026-06-01T09:00:00Z,COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,"Bitte löschen Sie mein Konto und alle Daten, auch unter meiner alten E-Mail-Adresse."
+case_905,ada.brennan@example.org,2026-06-01T09:00:00Z,PARTIALLY_COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,"Remove my account. An integration still syncs my data and my old support conversation still shows my email."
+case_906,lena.vogt@example.org,2026-06-01T09:00:00Z,COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,"I don't want my account deleted, just fix my email address."
+case_907,omar.fadel@example.org,2026-06-01T09:00:00Z,COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,What happens to my order history if I delete my account?
+case_908,priya.das@example.org,2026-06-01T09:00:00Z,COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,Please delete my old phone number from my profile and add the new one.
+case_909,wei.zhang@example.org,2026-06-01T09:00:00Z,COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,请删除我的账户和所有个人数据。
+case_910,sara.lind@example.org,2026-06-01T09:00:00Z,COMPLETE,2026-06-02T09:00:00Z,2026-06-10T12:00:00Z,Please erase my account. I understand some order records may be kept for a legal dispute.

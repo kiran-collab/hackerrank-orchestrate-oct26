@@ -1,0 +1,5 @@
+# Core solver: Python 3.10+ standard library only (csv, json, sqlite3, re).
+pypdf>=4.0                      # PDF text when pdftotext (poppler) is not installed
+rapidocr-onnxruntime>=1.3       # local OCR for screenshots (only needed if the transcript cache is missing)
+# Optional model paths (--vision, --llm-intent):
+anthropic>=0.121.0

@@ -1,0 +1,2 @@
+audit_id,user_id,event_time,field_name,old_value,new_value
+audit_9001,user_904,2026-04-02T10:00:00Z,email,j.prieto.old@example.org,jonah.prieto@example.org

@@ -1,0 +1,2 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_c1,2026-06-02T08:30:00Z,DELETE_RECORD,deletion_worker,account_service,account_9901,SUCCESS,Deletion worker submitted primary profile account_9901 to account_service.

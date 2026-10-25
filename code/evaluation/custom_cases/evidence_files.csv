@@ -1,0 +1,5 @@
+file_id,file_path,origin,captured_at
+evidence_c1,evidence/databases/accounts_failover_20260605.sql,customer_account_failover_replica_capture,2026-06-05T12:00:00Z
+evidence_c2,evidence/records/service_resource_export_20260608.json,service_resource_export,2026-06-08T12:00:00Z
+evidence_c3,evidence/logs/resource_lookup_trace_20260620.log,service_readback_logs,2026-06-20T08:00:01Z
+evidence_c4,evidence/records/retention_export_20260608.json,service_resource_export,2026-06-08T12:00:00Z
